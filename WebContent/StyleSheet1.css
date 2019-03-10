@@ -1,0 +1,109 @@
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: peru;
+    color: white;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+.topnav-right {
+    float: right;
+}
+
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+*{
+
+    box-sizing: border-box;
+}
+
+.container{
+    align-items: center;
+    position: absolute ;
+    top:50%;
+    left: 50%;
+    margin: 20px;
+    max-width: 400px;
+    padding: 16px;
+    transform: translate(-50%, -50%);
+    background-color: #ffeecc;
+}
+
+input[type=date], input[type=date]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=date]:focus,input[type=date]:focus{
+    background-color: #dddddd;
+    outline: none;
+}
+
+.btn{
+    background-color: #ff9933;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+.btn:hover{
+    opacity:1;
+}
+
+
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+ 
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+
